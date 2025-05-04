@@ -1,0 +1,20 @@
+name: flutter_bloc_and_cubit
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.0
+  intl: ^0.20.1
+  fluttertoast: ^8.2.12
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
