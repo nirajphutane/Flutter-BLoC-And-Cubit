@@ -1,4 +1,4 @@
-# flutter_bloc_and_cubit
+# Flutter BLoC & Cubit
 
 ✅ Bloc Summary
 
@@ -60,7 +60,7 @@ In BlocSelector, it listens for changes in a selected portion of the state and r
 
 Cubit and BLoC follow the same rules about rebuilding the UI based on state changes.
 
-1. Event-Driven vs State-Driven:
+Event-Driven vs State-Driven:
    In BLoC, you dispatch events, and the BLoC processes these events to emit new states.
    In Cubit, there are no events—Cubit directly emits states. You call methods on the Cubit to emit new states.
 
